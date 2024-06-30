@@ -29,14 +29,14 @@
   
       <div class="carnet">
         <h3>{{ title }}</h3>
-        <img width="40" :src="chip" alt="" />
+        <img width="40" :src="chip" alt="Chip" />
         <div>
           <h2>{{ number }}</h2>
-          <span>{{ date }}</span>
+          <span> Fecha de Exp: {{ date }}</span>
         </div>
         <footer>
           <span>{{ owner }}</span>
-          <img :src="cardType" width="60" />
+          <img :src="cardType" width="60" alt="Visa"/>
         </footer>
       </div>
     </div>
@@ -62,7 +62,7 @@
   }
   </script>
   
-  <!-- Add "scoped" attribute to limit CSS to this component only -->
+  <!-- Css -->
   <style scoped>
   * {
     margin: 0;
